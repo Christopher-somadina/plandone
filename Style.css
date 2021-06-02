@@ -1,0 +1,36 @@
+* {
+    margin: 0%;
+    font-family: sans-serif ;
+    
+}
+/* Navigation styles */
+.head {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 150px;
+}
+/* end of navigation styles */
+.head ul {
+    display: flex;
+    list-style: none;
+}
+.head ul li {
+    padding-right: 50px;
+    cursor: pointer;
+
+}
+.head ul li p {
+    font-size: 14px;
+    font-weight: bold;
+}
+.head h4 {
+    font-size: 20px;
+    cursor: pointer;
+}
+.get {
+    display: flex;
+    align-items: flex-start;
+    padding: 40px 150px;
+}
